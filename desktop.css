@@ -1,0 +1,59 @@
+@media screen and (min-width: 800px) {
+
+  body {
+    margin: 0 auto;
+    width: 960px;
+  }
+  span {
+    font-size: 50px;
+    color: #444;
+    outline: none;
+  }
+  section {
+  outline: 1px solid #000;
+  background: #aaa;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  }
+main {
+  width: 760px;
+   display: inline-block;
+   float: left;
+}
+
+
+#box-a {
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+}
+#box-b {
+  height: 600px;
+  width: 20.833333%;
+  line-height: 600px;
+  display: inline-block;
+  float: left;
+}
+#box-c, #box-d {
+  height: 200px;
+  width: 380px;
+  line-height: 100px;
+  display: inline-block;
+  float: left;
+}
+
+#box-e, #box-f, #box-g, #box-h {
+  height: 250px;
+  width: 190px;
+  line-height: 100px;
+  display: inline-block;
+  float: left;
+}
+
+#box-i {
+  height: 150px;
+  width: 100%;
+  line-height: 100px;
+}
+}
