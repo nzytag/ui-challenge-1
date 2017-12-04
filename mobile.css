@@ -1,0 +1,46 @@
+  * {
+    outline: 1px solid #000;
+  }
+  body {
+    width: 480px;
+
+  }
+  span {
+    color: black;
+    outline: none;
+  }
+  section {
+    text-align: center;
+    vertical-align: middle;
+    background-color: gray;
+  }
+
+#box-a {
+  height: 75px;
+  line-height: 75px;
+}
+#box-b {
+  height: 150px;
+  line-height: 150px; s
+}
+#box-c {
+  height: 125px;
+  line-height: 125px;
+}
+#box-d {
+  height: 125px;
+  line-height: 125px;
+}
+
+#box-e, #box-f, #box-g, #box-h {
+  height: 250px;
+  width: 240px;
+  line-height: 100px;
+  display: inline-block;
+  float: left;
+}
+#box-i {
+  height: 80px;
+  line-height: 80px;
+  clear: both;
+}
